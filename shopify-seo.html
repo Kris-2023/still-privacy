@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Still Shopify SEO 隐私政策">
+  <title>Still Shopify SEO 隐私政策</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      --page: #f4f7f6;
+      --surface: #ffffff;
+      --text: #17221f;
+      --muted: #586963;
+      --border: #d7e0dd;
+      --accent: #0b7651;
+      --notice: #fff8df;
+      --notice-border: #d5a82d;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page: #0f1513;
+        --surface: #18201d;
+        --text: #edf5f2;
+        --muted: #afbeb9;
+        --border: #34423e;
+        --accent: #78d9b5;
+        --notice: #302917;
+        --notice-border: #cda832;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--page); color: var(--text); }
+    main { width: min(920px, calc(100% - 32px)); margin: 32px auto; padding: clamp(24px, 5vw, 56px); background: var(--surface); border: 1px solid var(--border); border-radius: 18px; }
+    h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; }
+    h2 { margin-top: 2.3em; padding-top: .3em; border-top: 1px solid var(--border); font-size: 1.35rem; }
+    h3 { margin-top: 1.5em; font-size: 1.05rem; }
+    p, li, td, th { max-width: 78ch; }
+    a { color: var(--accent); }
+    code { padding: .1em .35em; border-radius: .35em; background: color-mix(in srgb, var(--accent) 12%, transparent); }
+    .meta { color: var(--muted); margin: 0; }
+    .notice { margin: 24px 0; padding: 14px 16px; border: 1px solid var(--notice-border); border-radius: 10px; background: var(--notice); }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+    th, td { padding: 10px 12px; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { background: color-mix(in srgb, var(--accent) 9%, transparent); }
+    footer { margin-top: 40px; color: var(--muted); font-size: .95rem; }
+
+    @media (max-width: 620px) {
+      main { width: 100%; margin: 0; border: 0; border-radius: 0; }
+      table, tbody, tr, th, td { display: block; }
+      th { border-bottom: 0; }
+      td { margin-bottom: 10px; }
+    }
+
+    @media print {
+      body { background: #fff; color: #000; }
+      main { width: 100%; margin: 0; padding: 0; border: 0; }
+      a { color: #000; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Still Shopify SEO 隐私政策</h1>
+      <p class="meta">生效日期：2026-09-17 · 适用版本：3.0.0</p>
+      <p class="meta">发布者：<strong>Kris-2023</strong></p>
+      <p class="meta">隐私联系：<strong><a href="https://github.com/Kris-2023/still-privacy/issues">GitHub Issues</a></strong></p>
+    </header>
+
+    <p class="notice"><strong>透明性说明：</strong>本政策说明扩展对数据的读取、使用、保存与必要通信，并与 Chrome Web Store Developer Dashboard 的 Privacy practices 披露保持一致。</p>
+
+    <section>
+      <h2>1. 适用范围与单一用途</h2>
+      <p>Still Shopify SEO（以下简称“扩展”）用于帮助有权管理 Shopify 店铺的用户维护与搜索可见度直接相关的图片和页面元数据：商品图片 ALT，以及产品和产品系列的页面标题、元描述与 URL Handle。扫描、审核、批量编辑、变更确认、本地历史、回读验证与恢复能力均直接服务于这一用途。</p>
+      <p>扩展没有开发者控制的后端、广告、遥测或第三方分析服务，不出售用户数据，也不下载或执行远程代码。</p>
+    </section>
+
+    <section>
+      <h2>2. 扩展处理的数据</h2>
+      <p>Chrome Web Store 把读取、使用、传输、临时处理或仅在用户设备保存均视为数据处理。扩展会处理以下数据，即使其中部分数据从不离开用户设备。</p>
+
+      <h3>2.1 Shopify 店铺、商品、产品系列与图片内容</h3>
+      <ul>
+        <li>店铺名称、主域名和店铺 Handle；</li>
+        <li>商品或产品系列的 ID、标题、Handle、SEO 页面标题与元描述；</li>
+        <li>商品状态、更新时间，以及图片 ALT 扫描所需的有限商品信息；</li>
+        <li>媒体/文件 ID、图片 URL、位置、宽度、高度、当前 ALT 和与图片有关的有限变体值；</li>
+        <li>用户编辑后的目标 ALT、页面标题、元描述和 Handle；</li>
+        <li>写入前后的值，用于冲突检查、变更摘要和回读验证。</li>
+      </ul>
+      <p>扩展不以读取客户、订单、支付、价格、结账、员工资料、健康信息或私人通信为功能目的。</p>
+
+      <h3>2.2 当前页面图片 QA</h3>
+      <p>扩展只在用户点击工具栏图标后获得当前标签页的临时 <code>activeTab</code> 授权；只有用户随后主动运行“当前页 QA”时，才读取与图片审核有关的页面 URL、标题、图片 URL、ALT、尺寸、可见性、来源类型和有限附近文字。</p>
+      <p>扩展不读取 Chrome 历史记录数据库、不持续跟踪浏览行为，也不建立跨页面画像。由于当前页面 URL、页面资源和网站内容仍属于 Chrome Web Store 要求披露的数据，Dashboard 会披露 Website content 和 Web history / web browsing activity。</p>
+
+      <h3>2.3 Shopify 会话认证信息</h3>
+      <p>扩展在 <code>https://admin.shopify.com/store/*</code> 自动加载本地打包的入口和桥接脚本，以便在 Shopify 后台右下角显示操作入口。脚本会在页面内存中临时处理当前登录会话请求所需的 session、access 或 CSRF 请求信息，并仅用于用户当前有权访问的店铺。</p>
+      <ul>
+        <li>认证信息只存在于相应 Shopify Admin 页面的 JavaScript 内存中；</li>
+        <li>不写入 Chrome 存储、磁盘、日志、备份或导出文件；</li>
+        <li>不发送给开发者服务器、广告平台、分析平台或无关第三方；</li>
+        <li>只用于向 Shopify Admin 发起用户请求的读取、确认后更新和回读验证；</li>
+        <li>页面刷新、关闭或相关浏览器进程结束后从页面内存中消失。</li>
+      </ul>
+      <p>扩展不要求用户输入 Shopify 密码，不申请 Chrome 的 <code>cookies</code> 权限，也不持久保存 Cookie。浏览器向 Shopify 发起同源请求时可以使用用户已有的 Shopify 登录会话。</p>
+
+      <h3>2.4 用户输入与操作记录</h3>
+      <p>扩展会处理用户输入或确认的 ALT、页面标题、元描述、Handle、筛选和批量编辑条件、批准/跳过决定、变更计划、原值备份、执行结果、回读结果与恢复状态。这些数据不用于行为分析、广告、画像或信用评估。</p>
+    </section>
+
+    <section>
+      <h2>3. 数据保存位置和期限</h2>
+      <table>
+        <thead><tr><th>位置</th><th>内容与期限</th></tr></thead>
+        <tbody>
+          <tr><th>Shopify 页面内存</th><td>临时认证信息。刷新或关闭相应页面后清除，不持久保存。</td></tr>
+          <tr><th><code>chrome.storage.local</code></th><td>保存 ALT 扫描草稿、审核决定、变更计划、原值备份、执行/回读/恢复状态及最多八条 ALT 历史；保存产品或产品系列 SEO/URL 的最近二十条操作历史。保留到用户清除扩展数据、删除 Chrome 配置或卸载扩展。</td></tr>
+          <tr><th><code>chrome.storage.sync</code></th><td>保存最大 ALT 长度、批次大小和品牌前缀等非商品偏好。若用户启用 Chrome 同步，Chrome 可依据用户设置将这些偏好同步到其他设备。商品、图片和 SEO 操作数据不放入该区域。</td></tr>
+          <tr><th>用户主动导出的文件</th><td>只有用户点击导出时才生成 CSV 或 JSON。文件由用户自行控制；清除扩展数据或卸载扩展不会自动删除已导出文件。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>4. 网络通信和数据披露</h2>
+      <p>扩展没有开发者后端，不向开发者、广告网络、分析提供商、数据经纪商或其他无关第三方发送用户数据。</p>
+      <ol>
+        <li><strong>Shopify Admin：</strong>与 <code>https://admin.shopify.com/</code> 同源通信，以读取商品、产品系列、图片和 SEO 字段，执行用户确认的更新，并回读验证结果。</li>
+        <li><strong>图片原始主机：</strong>侧边栏显示缩略图时，Chrome 可能从图片 URL 指向的原始主机加载图片。</li>
+        <li><strong>Chrome Sync：</strong>若用户启用 Chrome 同步，Chrome 可能同步上述非商品偏好；同步不经过开发者服务器。</li>
+      </ol>
+      <p>扩展不出售、出租或交易用户数据，不进行跨站跟踪、个性化广告、用户画像、信用评估或贷款用途，也不使用 Google Analytics、广告 SDK、遥测 SDK 或崩溃数据上传服务。</p>
+    </section>
+
+    <section>
+      <h2>5. 远程代码</h2>
+      <p>扩展使用 Manifest V3。所有 JavaScript、HTML、CSS、ALT 规则和 SEO 校验规则均包含在安装包中。扩展不加载或执行远程脚本，不使用 <code>eval</code> 或 <code>new Function</code> 执行远程字符串，也不把远程数据解释为代码。</p>
+    </section>
+
+    <section>
+      <h2>6. 权限与最小化访问</h2>
+      <table>
+        <thead><tr><th>权限或站点访问</th><th>用途</th></tr></thead>
+        <tbody>
+          <tr><th><code>https://admin.shopify.com/store/*</code></th><td>仅在 Shopify 店铺后台自动显示右下角入口，并在用户主动操作时连接当前店铺、读取或保存相关 SEO 数据。不会注入其他网站。</td></tr>
+          <tr><th><code>activeTab</code></th><td>用户点击工具栏图标后临时访问当前标签页，用于非 Shopify 页面的“当前页 QA”或兼容性连接修复。</td></tr>
+          <tr><th><code>scripting</code></th><td>在用户操作范围内注入扩展包内的图片检查或连接脚本，不下载远程代码。</td></tr>
+          <tr><th><code>storage</code></th><td>保存本地草稿、备份、操作历史和偏好。</td></tr>
+          <tr><th><code>sidePanel</code></th><td>在 Chrome 原生侧边栏中提供图片 ALT 工作台。</td></tr>
+        </tbody>
+      </table>
+      <p>扩展不申请 <code>tabs</code>、<code>history</code>、<code>cookies</code>、<code>webRequest</code>、<code>downloads</code>、<code>identity</code> 或 <code>&lt;all_urls&gt;</code> 权限。自动站点访问严格限定为 Shopify Admin 的店铺路径。</p>
+    </section>
+
+    <section>
+      <h2>7. 写入控制与用户选择</h2>
+      <ul>
+        <li>页面载入和初始扫描不会自动修改 Shopify。</li>
+        <li>ALT 建议必须由用户审核、生成计划并再次确认后才会写入。</li>
+        <li>页面标题、元描述和 Handle 只有在用户点击保存并确认后才会写入。</li>
+        <li>修改 Handle 会改变公开页面 URL；确认框会列出旧值和新值，并请求 Shopify 为旧 Handle 创建重定向。</li>
+        <li>写入后会读取 Shopify 实际保存值；失败或回读不匹配会明确标记。</li>
+        <li>ALT 回滚必须由用户主动发起，并在当前值仍满足安全条件时进行。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. 用户的数据控制</h2>
+      <p>用户可以清除扩展内的计划、状态或历史，清除 Chrome 扩展数据，管理 Chrome Sync，删除主动导出的文件，或卸载扩展以删除当前 Chrome 配置中的本地扩展数据。</p>
+      <p>清除扩展数据或卸载扩展不会自动撤销已经写入 Shopify 的 ALT 或 SEO 字段。需要恢复时，应在删除本地备份前使用扩展的恢复能力，或在 Shopify Admin 中手工修改。</p>
+    </section>
+
+    <section>
+      <h2>9. 数据安全</h2>
+      <p>自动站点访问仅限 Shopify Admin 店铺路径；认证信息仅在 Shopify 页面内存中临时处理；扩展页使用 <code>script-src 'self'; object-src 'none'</code> 内容安全策略；编辑器与 Shopify 页面使用隔离消息通道；GraphQL 操作固定在扩展包中；写入前后执行校验与回读。</p>
+      <p>任何软件或网络传输都无法保证绝对安全。用户应保护 Chrome 配置、Shopify 账号与设备安全，并仅在可信设备上使用扩展。</p>
+    </section>
+
+    <section>
+      <h2>10. Chrome Web Store Limited Use</h2>
+      <p>本扩展对用户数据的使用遵守 Chrome Web Store User Data Policy，包括 Limited Use 要求。用户数据只用于提供或改进本扩展公开说明的 Shopify 图片与页面 SEO 管理单一用途，不用于无关目的。</p>
+    </section>
+
+    <section>
+      <h2>11. 儿童数据</h2>
+      <p>扩展面向有权管理 Shopify 店铺的运营人员，不以儿童为目标，也不会有意收集儿童个人信息。</p>
+    </section>
+
+    <section>
+      <h2>12. 政策变更</h2>
+      <p>如果扩展的数据处理、权限或功能发生实质变化，发布者会在新版本提交前更新本政策和 Chrome Web Store 披露。若变化需要新的用户授权，Chrome 或 Shopify 可能显示相应提示。</p>
+    </section>
+
+    <section>
+      <h2>13. 联系方式</h2>
+      <p>发布者：<strong>Kris-2023</strong><br>
+      隐私与支持：<strong><a href="https://github.com/Kris-2023/still-privacy/issues">GitHub Issues</a></strong></p>
+      <p>本扩展不是 Shopify、Google 或 Chrome 的官方产品。提及这些名称仅用于说明兼容平台，不表示其认可、认证或批准。</p>
+    </section>
+
+    <footer>
+      <p>Still Shopify SEO · 隐私政策版本 3.0.0</p>
+    </footer>
+  </main>
+</body>
+</html>
