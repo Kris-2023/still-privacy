@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "updated": "2026-10-27",
+  "items": [
+    {
+      "id": "online-dunes",
+      "name": "Sand waves",
+      "zh": "流沙曲线",
+      "category": "minimal",
+      "url": "https://stocksnap.io/photo/sand-dunes-Q8FBYHQ2ER",
+      "author": "Sergei Gussev",
+      "file": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-dunes-d906512aa400.webp",
+      "darkness": 32,
+      "saturation": 88,
+      "license": "CC0",
+      "thumb": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-dunes-d906512aa400-thumb.webp",
+      "sha256": "d906512aa400ab7e1dfffbc35d188b69bb265e2fada17e0ff4ad972b3591bcfa",
+      "remote": true
+    },
+    {
+      "id": "online-forest",
+      "name": "Forest canopy",
+      "zh": "森林之上",
+      "category": "nature",
+      "url": "https://stocksnap.io/photo/aerial-forest-F5UGNUOOCF",
+      "author": "World Travel Adventures",
+      "file": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-forest-bcf216baf4a6.webp",
+      "darkness": 32,
+      "saturation": 88,
+      "license": "CC0",
+      "thumb": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-forest-bcf216baf4a6-thumb.webp",
+      "sha256": "bcf216baf4a606be4985f55e1ad89e91eafc5730283b5c947311473bda6f7c9e",
+      "remote": true
+    },
+    {
+      "id": "online-quiet-coast",
+      "name": "Quiet coast",
+      "zh": "静谧海岸",
+      "category": "coast",
+      "url": "https://stocksnap.io/photo/ocean-coast-WO5X6B57PN",
+      "author": "World Travel Adventures",
+      "file": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-quiet-coast-7738969a8557.webp",
+      "darkness": 32,
+      "saturation": 88,
+      "license": "CC0",
+      "thumb": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-quiet-coast-7738969a8557-thumb.webp",
+      "sha256": "7738969a8557fa2eb1bd1d981ec1416948b504954fe2a7733790a2104664565f",
+      "remote": true
+    },
+    {
+      "id": "online-rocky-coast",
+      "name": "Rocky shore",
+      "zh": "岩岸微光",
+      "category": "coast",
+      "url": "https://stocksnap.io/photo/sea-ocean-F4CCAT3MSP",
+      "author": "Sergei Gussev",
+      "file": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-rocky-coast-e6689f4affa5.webp",
+      "darkness": 32,
+      "saturation": 88,
+      "license": "CC0",
+      "thumb": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-rocky-coast-e6689f4affa5-thumb.webp",
+      "sha256": "e6689f4affa5d6edf8026e60a33b60a8522f0728a74bb5fea25bbce8b7805c2e",
+      "remote": true
+    },
+    {
+      "id": "online-desert",
+      "name": "Desert from above",
+      "zh": "沙漠脉络",
+      "category": "minimal",
+      "url": "https://stocksnap.io/photo/aerial-desert-F2VGKNCX5U",
+      "author": "Burst",
+      "file": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-desert-437a88c28565.webp",
+      "darkness": 32,
+      "saturation": 88,
+      "license": "CC0",
+      "thumb": "https://kris-2023.github.io/still-privacy/wallpapers/images/online-desert-437a88c28565-thumb.webp",
+      "sha256": "437a88c2856590f0b6e7c859504b409ae12998ff736c79d5ef512c7bf17f1064",
+      "remote": true
+    }
+  ]
+}
