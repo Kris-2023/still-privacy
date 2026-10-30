@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Privacy · Still Back to Top</title>
+<style>
+  :root{color-scheme:light dark;font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:#312f2b;background:#f5f4ed}
+  *{box-sizing:border-box}body{margin:0;padding:40px 22px}main{max-width:780px;margin:auto;background:#faf9f5;border:1px solid #e3ded4;border-radius:18px;padding:36px}h1{font-size:30px;line-height:1.2;letter-spacing:-.6px;margin:0 0 12px}h2{font-size:20px;line-height:1.4;margin:30px 0 10px}p,ul{margin:12px 0}a{color:#9b6048;text-underline-offset:3px}a:focus-visible{outline:3px solid currentColor;outline-offset:3px;border-radius:3px}.meta{color:#68635b;font-size:14px}.language{display:flex;gap:18px;margin-bottom:28px}.summary{padding:16px 18px;background:#e8e6dc;border-radius:12px}hr{border:0;border-top:1px solid #e3ded4;margin:44px 0}li{margin:8px 0}code{font:13px ui-monospace,Consolas,monospace;overflow-wrap:anywhere}
+  @media(prefers-color-scheme:dark){:root{color:#f0eeea;background:#202124}main{background:#292b2f;border-color:#414348}.meta{color:#b2b0ab}.summary{background:#35373c}a{color:#d0bdab}hr{border-color:#414348}}
+  @media(max-width:540px){body{padding:16px 12px}main{padding:24px 20px;border-radius:14px}h1{font-size:26px}}
+</style>
+<main>
+  <nav class="language" aria-label="Language"><a href="#english" lang="en">English</a><a href="#chinese" lang="zh-CN">简体中文</a></nav>
+  <section id="english" lang="en">
+    <h1>Still Back to Top — Privacy</h1>
+    <p class="meta">Version 1.9.0 · Updated October 30, 2026 · Publisher: Kris-2023 (Still)</p>
+    <p class="summary">Still Back to Top provides navigation within the current webpage. It has no developer-operated server, analytics, advertising, app account or AI service. Optional text features start disabled. Page content is processed on your device and is not sent to the developer.</p>
+    <h2>What the extension accesses</h2>
+    <ul>
+      <li><strong>Scrolling:</strong> it reads document or container dimensions and scroll positions to show progress, return to the top and restore a saved position. It uses the current page URL in memory to discard stale positions after navigation. The popup displays the current hostname.</li>
+      <li><strong>Manual markers:</strong> only when you enable this feature and add a marker, it reads a bounded amount of nearby text to create a label and remembers that position. Up to 12 manual markers are kept in the current page.</li>
+      <li><strong>Smart page navigation:</strong> only while enabled, it reads H1–H6 / ARIA headings and conservatively detects standalone visual titles in the current main scroll area. Bounded prose samples, link density and layout help select the main content. In clearly paired user / assistant message structures, it reads submitted user-message excerpts of up to 120 characters for conversation navigation. Up to 24 entries remain in page memory. It does not read composer drafts, use an AI service, archive the full page, or upload content. Unclear or unsupported structures may have no navigation.</li>
+      <li><strong>Website controls:</strong> it compares the page hostname with the websites you have disabled. It does not build a browsing-history log.</li>
+    </ul>
+    <p>The optional text features avoid form fields and editable areas. Headings, prose samples, submitted message excerpts and nearby text may themselves contain private information from the page you are viewing; that text is used only for navigation in that page.</p>
+    <h2>Storage, retention and transmission</h2>
+    <p>Navigation titles, message excerpts, marker labels, page URLs, scroll targets, saved positions and temporary hidden-page state remain in the current document’s memory. They are not written to extension storage or website storage and are not uploaded. Refreshing or navigating clears them. Losing a scroll container removes its markers; closing the page also ends that page state.</p>
+    <p>Small preferences and the hostname list you explicitly disable use <code>chrome.storage.sync</code>. Preferences include language, appearance, position, behavior and whether optional navigation features are enabled. Chrome may transmit this configuration through Google’s sync service when your browser sync settings permit it. No page text, full URLs or scroll positions enter that sync data. Sync requires the same Chrome account and extension ID on each device; developer-mode code must be installed separately.</p>
+    <p>The extension does not initiate additional network requests, sell data, transmit page content, or send usage statistics to the developer or third parties. Chrome’s own synchronization is governed by your Chrome settings and Google’s policies.</p>
+    <h2>Permissions and controls</h2>
+    <p><code>storage</code> saves preferences and website exceptions. HTTP/HTTPS content-script access lets the extension operate its visible navigation controls in normal top-level webpages. The extension does not request history, downloads, network interception or cross-frame access.</p>
+    <p>You can disable the extension globally or per hostname, temporarily hide it on a page, and independently enable or disable manual markers and smart page navigation in Settings. Disabling smart navigation stops its observation and releases its entries. Refresh or close a page to clear page-memory content. Restore defaults resets appearance and behavior while retaining your chosen language and disabled-site list; sites can be removed individually.</p>
+    <h2>Limited Use and contact</h2>
+    <p>Still Back to Top limits information accessed through Chrome APIs to its disclosed in-page navigation purpose. Its use of that information complies with the Chrome Web Store User Data Policy, including the Limited Use requirements. Page information is not used for advertising, profiling, sale or unrelated research, and the developer has no access to your page content.</p>
+    <p>Contact: <a href="mailto:krisgmail+still@gmail.com">krisgmail+still@gmail.com</a>. You can also report an issue at <a href="https://github.com/Kris-2023/still-privacy/issues" target="_blank" rel="noopener noreferrer">Still support</a>. Please avoid including private page text or conversation content in a public issue.</p>
+  </section>
+  <hr>
+  <section id="chinese" lang="zh-CN">
+    <h1>Still Back to Top 隐私说明</h1>
+    <p class="meta">适用于 1.9.0 · 更新日期：2026 年 10 月 30 日 · 发布者：Kris-2023（Still）</p>
+    <p class="summary">本扩展用于当前网页内导航。无需扩展账号，没有开发者服务器、统计、广告或 AI 服务。读取文字的可选功能默认关闭；页面内容仅在设备本地处理，不发送给开发者。</p>
+    <h2>访问哪些信息</h2>
+    <ul>
+      <li><strong>滚动：</strong>读取文档或容器的尺寸和滚动位置，用于显示进度、回顶和返回原位置。在内存中使用当前页面 URL，以便导航后清除旧位置；popup 显示当前 hostname。</li>
+      <li><strong>手动标记：</strong>仅在开启功能并添加标记时，读取有上限的附近文字生成标签，记录当前位置。当前页面最多保留 12 个手动标记。</li>
+      <li><strong>智能页面导航：</strong>仅在开启期间读取当前主要滚动区域内的 H1–H6 / ARIA 标题，并保守识别独立视觉短标题；有界的普通段落抽样、链接密度和布局用于选择正文。明确配对的 user / assistant 消息结构会使用不超过 120 字符的已提交用户消息原文节选生成会话导航。最多 24 项仅留在页面内存，不读取输入草稿，不使用 AI，不存档全文，不上传内容；结构不清楚或不受支持时可能不显示。</li>
+      <li><strong>网站控制：</strong>使用 hostname 匹配用户停用的网站列表，不建立浏览历史记录。</li>
+    </ul>
+    <p>文字功能避开表单输入及可编辑区域。标题、正文判别抽样、已提交消息节选或附近文字本身可能包含当前页面的私人信息；这些文字仅用于本页导航。</p>
+    <h2>保存期限与传输</h2>
+    <p>导航标题、消息节选、标记文字、完整页面 URL、目标容器、保存的位置及临时隐藏状态只保留在当前文档内存，不写入扩展或网站存储，也不上传。刷新、导航或关闭页面后清除；原滚动容器失效时移除其标记。</p>
+    <p>语言、外观、定位、交互开关和用户主动停用的 hostname 列表保存在 <code>chrome.storage.sync</code>。Chrome 同步设置允许时，Google 同步服务可能传输这些配置。页面文字、完整 URL 和滚动位置不进入同步数据。跨设备同步需要同一 Chrome 账号与同一扩展 ID，开发者模式代码需在各设备自行安装。</p>
+    <p>扩展不主动发起额外网络请求，不出售数据，不上传网页内容，不向开发者或第三方发送使用统计。Chrome 自身的配置同步受浏览器设置及 Google 政策约束。</p>
+    <h2>权限与管理</h2>
+    <p><code>storage</code> 用于设置和网站例外。HTTP/HTTPS 内容脚本访问用于在普通网页顶层文档中提供可见导航操作。不申请历史记录、下载、网络拦截或跨 iframe 访问权限。</p>
+    <p>你可以全局停用、按 hostname 停用、本页临时隐藏，并分别开启或关闭手动标记与智能页面导航。关闭智能页面导航会停止观察并释放目录节点；刷新或关闭页面可清空本页内存内容。恢复默认重置外观和行为，保留所选语言及停用网站列表；网站可单独移除。</p>
+    <h2>限定用途与联系</h2>
+    <p>Still Back to Top 仅将通过 Chrome API 访问的信息用于已披露的网页内导航目的，并遵守 Chrome Web Store 用户数据政策及 Limited Use 要求。页面信息不用于广告、画像、销售或无关研究，开发者无法访问你的页面内容。</p>
+    <p>联系邮箱：<a href="mailto:krisgmail+still@gmail.com">krisgmail+still@gmail.com</a>。也可前往 <a href="https://github.com/Kris-2023/still-privacy/issues" target="_blank" rel="noopener noreferrer">Still 支持页面</a>反馈问题；请避免在公开反馈中包含私人页面文字或对话内容。</p>
+  </section>
+</main>
+</html>
