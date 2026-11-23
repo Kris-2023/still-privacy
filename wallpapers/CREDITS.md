@@ -36,3 +36,16 @@ https://creativecommons.org/publicdomain/zero/1.0/
 - 轻浪海岸 — Candace McDaniel — https://stocksnap.io/photo/ocean-water-0UZIYQOYTY — CC0 stated on source page
 - 海岸俯瞰 — Lance Asper — https://stocksnap.io/photo/sea-ocean-UXDUCODR2B — CC0 stated on source page
 - 湖畔晴日 — Alexandr Baranets — https://stocksnap.io/photo/lake-water-JXHJRODDAP — CC0 stated on source page
+
+
+## Added 2026-11-23 — winter collection
+
+Five snow landscapes, downloaded from their StockSnap source pages on 2026-11-23. Each source page identifies the image as CC0. Originals were resized to 2560 px wide without upscaling and compressed to WebP; thumbnails are cropped. Source attribution is retained below.
+
+- 雪峰云影 / Snow peaks and clouds — Bonnie Moreland — https://stocksnap.io/photo/winter-forest-WFJW882YXR — CC0
+- 雪林溪流 / Snowy forest river — Bonnie Moreland — https://stocksnap.io/photo/winter-forest-B50RW8KFEH — CC0
+- 雾凇松林 / Frosted forest — Ciprian Boiciuc — https://stocksnap.io/photo/snow-winter-65G8CWXXIZ — CC0
+- 冬湖倒影 / Winter lake reflections — JJ Skys the Limit — https://stocksnap.io/photo/winter-lake-OGBTTVS98R — CC0
+- 雪山余晖 / Alpenglow — Bernard Spragg — https://stocksnap.io/photo/snow-mountain-KWMYJNGPAH — CC0
+
+License: https://stocksnap.io/license · https://creativecommons.org/publicdomain/zero/1.0/
